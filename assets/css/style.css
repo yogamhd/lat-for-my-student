@@ -28,7 +28,22 @@ body{
 }
 
 /*Component*/
+.text-black{
+	color: #333;
+}
 
+.text-gray{
+	color: #888;
+}
+
+.button{
+	position: relative;
+	padding: 15px 30px 15px 30px;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 15px;
+	border-radius: 3px;
+}
 
 /* Navbar */
 nav{
@@ -84,7 +99,7 @@ nav ul li a:hover{
 section#box-profile{
 	position: relative;
 	width: 80%;
-	min-height: 300px;
+	min-height: 250px;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 60px;
@@ -137,14 +152,14 @@ section#box-profile{
 }
 
 .information{
-	position: relative;
+	position: absolute;
 	display: inline-block;
-	float: left;
+	float: right;
 	font-family: 'Helvetica', sans-serif;
 	top: 45px;
 	margin-left: 30px;
 }
-
+ 
 .information .data{
 	display: block;
 	width: 100%;
